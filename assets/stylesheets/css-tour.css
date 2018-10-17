@@ -1,19 +1,21 @@
-html {
-  background: url(../images/tourbkg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  z-index: -1;
-}
-
 body {
+  background-image:
+  linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+    url("../images/tourbkg.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: black;
   font-size: 16px;
   color: white;
   z-index: 1;
+  padding-top: 100px;
 }
 
 h1 {
