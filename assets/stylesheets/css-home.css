@@ -45,3 +45,8 @@ body {
     color: white;
     text-align: center;
 }
+
+.smicons {
+  padding-bottom: 40px;
+  float: right;
+}

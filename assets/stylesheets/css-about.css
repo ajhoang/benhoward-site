@@ -73,11 +73,9 @@ li:not(:last-child) {
     background-color: black;
     color: white;
     text-align: center;
-    z-index: -1;
 }
 
 .smicons {
-  z-index: 1;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
+  float: right;
 }
