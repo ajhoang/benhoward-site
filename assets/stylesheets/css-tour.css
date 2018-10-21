@@ -1,9 +1,5 @@
 body {
   background-image:
-  linear-gradient(
-        rgba(0, 0, 0, 0.60),
-        rgba(0, 0, 0, 0.60)
-      ),
     url("../images/tourbkg.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -50,26 +46,62 @@ ul {
   list-style-type: none;
 }
 
+.shows-container {
+  width: 94%;
+  height: 40%;
+  margin-top: 30px;
+  margin-left: 40px; /*need to get this responsive*/
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+  background: rgba(0, 0, 0, 0.60);
+}
+
 table {
     border-collapse: collapse;
+    padding: 20px;
     width: 100%;
+    border-spacing: 0;
 }
 
 th, td {
     padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     text-align: left;
     border-bottom: 1px solid #6a6c70;
 }
 
-.shows_item {
-  border-bottom: 1px solid #6a6c70;
-  border-top: 1px solid #6a6c70;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 40px;
-  font-size: 20px;
-  transition: all 250ms ease;
+.tix a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 14px;
+    border: solid white 1px;
 }
+
+a:hover, a:active {
+    background-color: #A2C0DE;
+    border-color: #A2C0DE;
+}
+/* .tix a: link {
+  color: white;
+}
+
+.tix a: visited {
+  color: white;
+}
+
+.tix a: hover {
+  border-color: #A2C0DE;
+  background: #A2C0DE;
+  color: white;
+}
+
+.tix a: active {
+  color: white;
+} */
 
 
 .footer {
