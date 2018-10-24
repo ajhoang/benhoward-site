@@ -82,9 +82,9 @@ th, td {
     border: solid white 1px;
 }
 
-a:hover, a:active {
+.tix a:hover, a:active {
     background-color: #A2C0DE;
-    border: #A2C0DE;
+    border: solid #A2C0DE 1px;
 }
 
 .footer {
