@@ -84,7 +84,7 @@ th, td {
 
 a:hover, a:active {
     background-color: #A2C0DE;
-    border: solid #A2C0DE 1px;
+    border: #A2C0DE;
 }
 
 .footer {
