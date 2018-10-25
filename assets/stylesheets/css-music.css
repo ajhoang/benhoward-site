@@ -5,20 +5,8 @@ body {
   font-size: 16px;
   color: white;
   padding-top: 100px;
-  line-height: 0.7;
 }
 
-h1 {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 30px;
-}
-
-h2 {
-  color: white;
-  font-size: 25px;
-}
 
 .logo {
     float: left;
@@ -37,7 +25,19 @@ h2 {
 }
 
 .container {
-  padding-top: 50px;
+  padding-top: 30px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+h2 {
+  color: white;
+  font-size: 25px;
 }
 
 .responsive {
