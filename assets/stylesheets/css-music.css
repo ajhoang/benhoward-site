@@ -38,6 +38,7 @@ h1 {
 h2 {
   color: white;
   font-size: 25px;
+  line-height: 0.75;
 }
 
 .responsive {
@@ -126,6 +127,7 @@ h2 {
 
 .slant {
   font-style: italic;
+  line-height: 0.5;
 }
 
 table {
