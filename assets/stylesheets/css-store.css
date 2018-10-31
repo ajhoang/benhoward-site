@@ -15,6 +15,13 @@ h1 {
     padding-top: 30px;
 }
 
+h2 {
+  color: white;
+  font-size: 18px;
+  line-height: 0.75;
+  text-align: center;
+}
+
 .logo {
     float: left;
     vertical-align: top;
@@ -33,6 +40,89 @@ h1 {
 
 .container {
   padding-top: 30px;
+}
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content-container {
+  width: 1200px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: auto;
+
+}
+
+.media-container {
+  width: 1200px;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: auto;
+
+}
+
+.bottom-container {
+  width: 1200px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  margin: auto;
+
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.click-container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 50px 10px 0px 30px;
+
+}
+
+.column-text {
+    float: left;
+    width: 25%;
+    padding-left: 30px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.small {
+  line-height: 0.5;
+  text-align: center;
+  font-size: 16px;
 }
 
 .footer {
