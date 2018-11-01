@@ -153,10 +153,13 @@ th, td {
     height: 40px;
     background-color: black;
     color: white;
-    text-align: center;
 }
 
-.smicons {
-  padding-bottom: 40px;
-  float: right;
+.social-media-container li {
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    padding: 5px;
+    padding-right: 10px;
+    color: white;
 }
