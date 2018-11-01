@@ -55,6 +55,14 @@ h2 {
   text-align: center;
 }
 
+.storenav-container {
+  width: 1000px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+}
+
 .content-container {
   width: 1200px;
   padding-left: 60px;
@@ -92,6 +100,42 @@ h2 {
 
 .image {
   display: block;
+  width: 100%;
+  height: auto;
+}
+
+.allimages {
+  width: 90vw;
+  height: 90vw;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: black;
+}
+.image-container {
+  display: inline-block;
+  float: left;
+  height: auto;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  box-sizing: border-box;
+}
+
+.image-container.big {
+  height: auto;
+  width: 28%;
+}
+
+.image-container.small {
+  display: inline-block;
+  height: auto;
+  width: 20%;
+}
+
+.image-container img {
   width: 100%;
   height: auto;
 }

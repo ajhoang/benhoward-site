@@ -20,6 +20,11 @@ h1 {
     padding-top: 30px;
 }
 
+ul.nav li a:active {
+  border: 0;
+  outline: none;
+}
+
 .logo {
     float: left;
     vertical-align: top;
@@ -94,10 +99,9 @@ th, td {
     height: 40px;
     background-color: black;
     color: white;
-    text-align: center;
 }
 
-.smicons {
-  padding-bottom: 40px;
+.social-media-container {
   float: right;
+  display: inline-block;
 }
