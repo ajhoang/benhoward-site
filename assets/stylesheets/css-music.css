@@ -151,8 +151,13 @@ th, td {
     bottom: 0;
     width: 100%;
     height: 40px;
+    content: center;
     background-color: black;
     color: white;
+}
+
+a {
+  color: white;
 }
 
 .social-media-container li {
