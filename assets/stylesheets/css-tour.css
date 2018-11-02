@@ -101,6 +101,10 @@ th, td {
     color: white;
 }
 
+a {
+  color: white;
+}
+
 .social-media-container li {
     float: right;
     display: inline-block;
