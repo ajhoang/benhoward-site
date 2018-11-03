@@ -39,25 +39,20 @@
 </body>
 
 <div class="content-container">
-<div id="myBtnContainer">
-  <div class="allimages">
-      <button class="btn active" onclick="filterSelection('all')"> ALL</button>
-    <div class="image-container big">
+  <div class= "row">
+    <div class= "column left">
       <button class="btn" onclick="filterSelection('music')"><img src="./assets/images/music.jpg"></button>
-    </div>
-    <div class="image-container">
-      <button class="btn" onclick="filterSelection('accessories')"><img src="./assets/images/accessories.jpg"></button>
-    </div>
-    <div class="image-container">
-      <button class="btn" onclick="filterSelection('apparel')"><img src="./assets/images/apparel.jpg"></button>
-    </div>
-    <div class="image-container small">
       <button class="btn" onclick="filterSelection('posters')"><img src="./assets/images/posters.jpg"></button>
     </div>
+    <div class= "column right">
+      <button class="btn" onclick="filterSelection('accessories')"><img src="./assets/images/accessories.jpg"></button>
+      <button class="btn" onclick="filterSelection('apparel')"><img src="./assets/images/apparel.jpg"></button>
+    </div>
+    <button class="btn active" onclick="filterSelection('all')"> ALL ITEMS</button>
   </div>
 </div>
 
-<div class="container">
+<div class="item-container">
   <div class="filterDiv apparel">
     <img class= "responsive" src="./assets/images/whitetee.png" alt="White TShirt with Noonday Dream logo" />
   </div>
