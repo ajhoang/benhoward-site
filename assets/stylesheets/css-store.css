@@ -76,8 +76,9 @@ h1 {
 
 .content-container {
   width: 100%;
-  padding: 30px 5px 60px 200px;
+  padding: 30px 5px 60px 5px;
   margin: auto;
+  display: inline-block;
 }
 
 .item-container {
@@ -119,7 +120,6 @@ h1 {
   outline: none;
   background-color: black;
   font-size: 25px;
-  cursor: pointer;
 }
 
 button img {
